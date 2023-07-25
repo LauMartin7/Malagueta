@@ -1,0 +1,171 @@
+body{
+    background-color: rgb(199, 200, 224);
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: rgb(175, 64, 215);
+}
+
+li{
+    display: inline;
+}
+    
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.icono{
+    text-align: left;
+    color:rgb(199, 200, 224);
+    padding-left: 10px;
+    padding-right: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.dropdown_btn{
+    background-color: rgb(175, 64, 215);
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown_btn:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #c35ea6;
+    min-width: 160px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.dropdown_content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+p{
+    color:rgb(198, 198, 199);
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#onsale{
+    font-size: 200px;
+    text-shadow: 2px 20px 5px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.onsaleanimado{
+    overflow: hidden;
+    height: 450px;
+}
+
+.fondo{
+    margin-top: 0;
+    height: 800px;
+    background: rgb(199, 200, 224) url('https://cdn.pixabay.com/photo/2017/11/21/21/58/girl-2969351_1280.jpg') no-repeat top scroll;
+    background-size: cover;
+}
+
+.fondo p {
+    color: rgba(149, 91, 135, .5);
+    margin-left: 20px;
+}
+
+#whatsapp {
+    position: sticky;
+    left: 1250px;
+    top: 600px;
+    width: 100px;
+}
+
+footer input {
+    width: 200px;
+}
+
+footer h2 {
+    margin-left: 5px;
+    text-align: center;
+    color: rgba(149, 91, 135, .5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer form p, footer form label, footer div p {
+    margin-left: 5px;
+    font-size: 16px;
+    text-align: center;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:end;
+    height: 400px;
+}
+
+footer div {
+    margin-bottom: 80px;
+}
+#redes {
+    margin-left: 150px;
+}

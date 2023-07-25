@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(199, 200, 224);
+    margin: 0;
+}
+
+div{
+    width: 100%;
+    background-color: rgb(175, 64, 215);
+    padding: 14px;
+    text-align: left;
+    color:rgb(199, 200, 224);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+fieldset{
+    background-color: white;
+    width: 40%;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=email] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea{
+    width: 80%;
+    padding: 40px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    width: 40%;
+    background-color: #ab478b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

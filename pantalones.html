@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>css</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="main_pantalones.css" type="text/css" />
     </head>
     <body>
@@ -23,31 +24,67 @@
                 </ul>
             </div> 
         </header>
-        <div class="grid">
-            <div>
-                <img src="./img/pantalon1.jpg"alt="calzaBeige">
-                <p>$10000</p>
+        <div class="flex">
+            <div class="listaProductos">
+                <div class="card">
+                    <img src="./img/pantalon1.jpg"alt="calzaBeige">
+                    <h5>Pantalón de bengalina elastizado</h5>
+                    <p>10000</p>
+                    <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                </div>
+                <div class="card">
+                    <img src="./img/pantalon2.jpg"alt="jeanRoto">
+                    <h5>Pantalón de jean skinny con roturas</h5>
+                    <p>20000</p>
+                    <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                </div>
+                <div class="card">
+                    <img src="./img/pantalon3.jpg"alt="jeanMom">
+                    <h5>Pantalón de jean recto con roturas</h5>
+                    <p>18000</p>
+                    <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                </div>
+                <div class="card">
+                    <img src="./img/pantalon4.jpg"alt="jeanNegro">
+                    <h5>Pantalón de jean recto negro</h5>
+                    <p>17000</p>
+                    <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>  
+                </div>
+                <div class="card">
+                    <img src="./img/pantalon5.jpg"alt="shortJean">
+                    <h5>Short de jean</h5>
+                    <p>14000</p>
+                    <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>  
+                </div>
+                <div class="card">
+                    <img src="./img/pantalon6.jpg"alt="shortNegro">
+                    <h5>Short de bengalina negro</h5>
+                    <p>13000</p>
+                    <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>  
+                </div>
             </div>
-            <div>
-                <img src="./img/pantalon2.jpg"alt="jeanRoto">
-                <p>$8000</p>
-            </div>
-            <div>
-                <img src="./img/pantalon3.jpg"alt="jeanMom">
-                <p>$110000</p>
-            </div>
-            <div>
-                <img src="./img/pantalon4.jpg"alt="jeanNegro">
-                <p>$8000</p>
-            </div>
-            <div>
-                <img src="./img/pantalon5.jpg"alt="shortJean">
-                <p>$10000</p>
-            </div>
-            <div>
-                <img src="./img/pantalon6.jpg"alt="shortNegro">
-                <p>$75000</p>
+            <div id="carrito">
+                <div class="flexCarrito">
+                    <i class="bi bi-cart-fill" id="mostrar_carrito"></i>
+                    <h2>Carrito de compras</h2>
+                </div>
+                <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <td></td>       
+                        <td>Producto</td>
+                        <td>Cantidad</td>
+                        <td>Precio</td>
+                        <td></td>             
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+                </table>
             </div>
         </div>
+        <script src="carritoMalagueta.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>

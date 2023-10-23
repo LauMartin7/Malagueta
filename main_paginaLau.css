@@ -162,7 +162,25 @@ footer{
     align-items:end;
     height: 400px;
 }
-
+.seguinos{
+    margin-top: 70px;
+    margin-left: -50px;
+}
+#mjeSuscripcion{
+    margin-left: 5px;
+    font-size: 16px;
+    text-align: center;
+    color:rgb(142, 41, 86);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#botonEnviar{
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #c35ea6;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 footer div {
     margin-bottom: 80px;
 }

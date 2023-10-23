@@ -60,7 +60,7 @@ textarea{
     border-radius: 4px;
 }
 
-button{
+#btnEnviar{
     width: 40%;
     background-color: #ab478b;
     color: white;
